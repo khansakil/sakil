@@ -79,3 +79,9 @@ body{
 ::placeholder{
     color: #fff;
 }
+@media (max-width: 858px)
+{
+    body{
+        background-attachment: fixed;
+    }
+}
