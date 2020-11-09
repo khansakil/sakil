@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../images/bg.webp)no-repeat;
+    background-size: cover;
+}
+.logeinbox{
+    
+    padding-left: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 350px;
+    width: 300px;
+    background: #26fd23;
+    transform: translate(-50%, -28%);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.logeinbox .user{
+    height: 80px;
+    width: 80px;
+    border: 2px solid #26FDE9;
+    border-radius: 100%;
+    position: absolute;
+    overflow: hidden;
+    background: chartreuse;
+    top:calc(-80px/2);
+    left: calc(50% - 40px);
+}
+.logeinbox h2{
+    text-align: center;
+    padding-top: 35px;
+    text-transform: uppercase;
+    color: #E68E31;
+    font-family: cursive;
+}
+.logeinbox p,a{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.logeinbox input{
+    margin-bottom: 20px;
+}
+.logeinbox input[type="text"],
+.logeinbox input[type="password"]
+{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #26FDE9;
+    width: 240px;
+    height: 30px;
+}
+.logeinbox input[type="text"]:focus,
+.logeinbox input[type="password"]:focus
+{
+    border-bottom: 1px solid hsl(355, 83%, 56%);
+}
+.logeinbox input[type="submit"] {
+    width: 248px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: #26FDE9;
+    text-transform: uppercase;
+    color: slategrey;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.logeinbox input[type="submit"]:hover
+{
+    background: #E68E31;
+    color: #fff;
+}
+::placeholder{
+    color: #fff;
+}
